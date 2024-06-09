@@ -71,7 +71,7 @@ function Home() {
                 <ListaTarjeta>    
                     
                     {
-                        users1.map ((user, index) => {
+                        users.map ((user, index) => {
                             return (
                                 <TarjetaContactos
                                     key={user.index}
