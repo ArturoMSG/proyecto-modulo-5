@@ -12,7 +12,7 @@ function Routes() {
             element: <Home/>   
         },
         {
-            path: '/busqueda-contacto',
+            path: '/lista-contactos',
             element: <BusquedaContactos/>   
         },
         {

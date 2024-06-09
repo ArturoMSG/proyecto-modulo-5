@@ -5,7 +5,7 @@ import './index.css'
 import { BarraBusqueda } from '../../component/BarraBusqueda';
 import { TarjetaContactos } from '../../component/TarjetaContactos';
 import {ListaTarjeta} from '../../component/ListaTarjeta' ;
-import fotoVacia from '../../assets/imagenes/FotoVacia.jpeg'
+
 
 function Home() {
 
@@ -66,32 +66,32 @@ function Home() {
 
     return (
         <>
-            <BarraBusqueda /> 
-           
-                <ListaTarjeta>    
+            <ListaTarjeta>    
                     
-                    {
-                        users.map ((user, index) => {
-                            return (
-                                <TarjetaContactos
-                                    key={user.index}
-                                    nombreT = {user.nombres}
-                                    apellidoT = {user.apellido}
-                                    fotoT = {user.foto}
-                                    telefonoT = {user.telefono}
-                                    tipoT = {user.tipo}
-                                    emailT = {user.email}
-                                                                        
-                                />
+                {
+                    users.map ((user, index) => {
+                        return (
+                            <TarjetaContactos
+                                key={user.index}
+                                nombreT = {user.nombres}
+                                apellidoT = {user.apellido}
+                                fotoT = {user.foto}
+                                telefonoT = {user.telefono}
+                                tipoT = {user.tipo}
+                                emailT = {user.email}
+                                                                    
+                            />
 
-                             )
+                         )
 
-                        } )
+                    } )      
                         
-                    }
+                }
                 
            
-                </ListaTarjeta> 
+            </ListaTarjeta>        
+           
+               
             
             
         </>

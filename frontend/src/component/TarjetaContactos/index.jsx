@@ -11,7 +11,7 @@ function TarjetaContactos({nombreT, apellidoT, fotoT, telefonoT, tipoT, emailT})
         <>
             <div className ='container-tarjeta'>
                 <div className="imagen-foto">
-                    <img src= { fotoVacia} alt="Foto sin imagen" />
+                    <img src= { fotoT || fotoVacia } alt="Foto o Foto sin imagen" />
                 </div>
                 <div className='tarjeta-content'>
                     <h2 className='nombre'> {fotoT} </h2>

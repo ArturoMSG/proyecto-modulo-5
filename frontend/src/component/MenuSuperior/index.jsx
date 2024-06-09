@@ -20,8 +20,8 @@ function MenuSuperior() {
                     Agregar Contacto
                 </Link>
 
-                <Link to="/lista-contactos" className='nav-link'>
-                    Contactos
+                <Link to="/lista-contactos" lassName='nav-link'>
+                    Busqueda de Contactos
                 
                 </Link>
             </ul>
