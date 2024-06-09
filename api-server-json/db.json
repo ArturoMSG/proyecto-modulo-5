@@ -8,18 +8,18 @@
             "apellido": "Salazar",
             "foto": "",
             "telefono": "5512007406",
-            "Tipo": "Familaiar"
+            "tipo": "Familaiar"
             
 
         },
         {
-            "id": 1, 
+            "id": 2, 
             "email": "amasalazarg2@gmail.com",
             "nombres": "Miguel",
             "apellido": "Salazar",
             "foto": "",
             "telefono": "5571880113",
-            "Tipo": "Trabajo"
+            "tipo": "Trabajo"
         }
 
 
