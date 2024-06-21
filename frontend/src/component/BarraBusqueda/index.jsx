@@ -15,7 +15,7 @@ function BarraBusqueda({FunDatosT}) {
         const contactoNombre = formDatos.get('Contacto-nombre');   // DatosFormulario.get trae el valor del formulario si le pongo el "name" (checar puede ser ID) del campo del imput 
       
        
-       console.log ('barra variable contactoNombre = formData.get(Contacto-nombre)', contactoNombre ) // solo para saber si tengo el valor dentro de esta funcion.
+       //console.log ('barra variable contactoNombre = formData.get(Contacto-nombre)', contactoNombre ) // solo para saber si tengo el valor dentro de esta funcion.
 
        //ejecucion de valor para regresar parametros en este caso es el valor de la variable "contactoNombre", si son varios parametros puedo crear un objeto poniendo dentro del parectesis {valor1, valor2}
        FunDatosT({contactoNombre});

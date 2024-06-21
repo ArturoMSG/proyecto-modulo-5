@@ -17,7 +17,7 @@ function BusquedaContactos() {
     //funcion para recupera datos de un complemento secundario a este, los valores recibido  es el valor de la variable "contactoNombre", si son varios parametros puedo crear un objeto poniendo dentro del parectesis {valor1, valor2}
 
     const FunDatos = ({contactoNombre}) => {
-        console.log (' page variable contactoNombre = formData.get(Contacto-nombre)', contactoNombre ) //solo para saber si tengo el valor dentro de esta funcion.
+        //console.log (' page variable contactoNombre = formData.get(Contacto-nombre)', contactoNombre ) //solo para saber si tengo el valor dentro de esta funcion.
     }
 
 
